@@ -9,7 +9,7 @@ public class uno {
     public void datosM() {
         for (int f = 0; f < this.SuperMatriz.length; f++) {
             for (int c = 0; c < SuperMatriz[f].length; c++) {
-                SuperMatriz[f][c]=(int)(Math.random()*7);
+                SuperMatriz[f][c]=(int)(Math.random()*3);
             }
         }
     }
